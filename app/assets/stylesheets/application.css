@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  box-sizing: border-box;
+ }
+
+.all {
+  display: flex;
+}
+
+ .side_bar {
+  background-color: #253141;
+  width: 300px;
+ }
+
+ .main_chat {
+  background-color: #ffffff;
+  width: calc(100vw-300px);
+ }
